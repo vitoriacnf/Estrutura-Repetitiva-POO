@@ -8,16 +8,20 @@ public class Exercicio1 {
 
         int X = 0, Y = 0;
 
-       
+        System.out.println("Digite dois números:");
+        X = sc.nextInt();
+        Y = sc.nextInt();
+
         while (X != Y) {
             if (X > Y) {
-                System.out.println("Digite dois números:");
-                X = sc.nextInt();
-                Y = sc.nextInt();
-                System.out.print("DECRESCENTE!");
+                System.out.println("DECRESCENTE!");
             } else {
-                System.out.print("CRESCENTE!");
+                System.out.println("CRESCENTE!");
             }
+            
+            System.out.println("Digite outros dois números:");
+            X = sc.nextInt();
+            Y = sc.nextInt();
 
         }
 
