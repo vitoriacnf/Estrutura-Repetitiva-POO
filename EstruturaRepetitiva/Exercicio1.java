@@ -11,6 +11,10 @@ public class Exercicio1 {
         X = sc.nextInt();
         Y = sc.nextInt();
 
+        System.out.println("Digite outros dois números:");
+        X = sc.nextInt();
+        Y = sc.nextInt();
+
         while (X != Y) {
             if (X > Y) {
                 System.out.print("DECRESCENTE!");
@@ -18,9 +22,6 @@ public class Exercicio1 {
                 System.out.print("CRESCENTE!");
             }
         }
-        System.out.println("Digite outros dois números:");
-        X = sc.nextInt();
-        Y = sc.nextInt();
 
         sc.close();
 
