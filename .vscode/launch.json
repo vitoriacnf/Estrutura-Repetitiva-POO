@@ -1,0 +1,35 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercicio1",
+            "request": "launch",
+            "mainClass": "EstruturaRepetitiva.Exercicio1",
+            "projectName": "Estrutura-Repetitiva-POO_71f9a0d5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercicio2",
+            "request": "launch",
+            "mainClass": "EstruturaRepetitiva.Exercicio2",
+            "projectName": "Estrutura-Repetitiva-POO_71f9a0d5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercicio3",
+            "request": "launch",
+            "mainClass": "EstruturaRepetitiva.Exercicio3",
+            "projectName": "Estrutura-Repetitiva-POO_71f9a0d5"
+        }
+    ]
+}

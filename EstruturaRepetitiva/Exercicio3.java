@@ -11,14 +11,15 @@ public class Exercicio3 {
         System.out.print("Digite a senha: ");
         senha = sc.nextInt();
 
-        while (senha != 0) {
-            System.out.println("Senha Inválida! Tente Novamente: ");
-            senha = sc.nextInt();
+        while (senha != 2002) {
+            if (senha != 0) {
+                System.out.print("Senha Inválida! Tente Novamente: ");
+                senha = sc.nextInt();
+            } else {
+                System.out.println("Acesso permitido!");
+            }
+
         }
-        if (senha == 2002) {
-            System.out.println("Acesso permitido!");
-        }
-        
         sc.close();
     }
 }
