@@ -4,27 +4,32 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Exercicio2 {
+
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        int idade = 0;
-        double media;
+        Integer idade, somaIdades = 0, quantidadeIdades = 0;
 
-        // System.out.println("Digite as idades: ");
-        // idade = sc.nextInt();
-        System.out.println("Digite as idades: ");
+        System.out.println("Idades: ");
         idade = sc.nextInt();
 
-        while (idade > 0) {
-            if (idade > 0) {
-                // media = idade / idade;
-                // System.out.println("MÉDIA: " + media);
-            } else {
-                System.out.println("IMPOSSIVEL CALCULAR");
-            }
+        while(idade > 0){
+            somaIdades += idade;
+            quantidadeIdades = quantidadeIdades + 1;
+
+            idade = sc.nextInt();
         }
 
+        if(quantidadeIdades == 0){
+            System.out.println("IMPOSSÍVEL CALCULAR");
+        }else{
+            Double media =  (somaIdades.doubleValue() / quantidadeIdades.doubleValue());
+            System.out.printf("soma idades: %d", somaIdades);
+            System.out.printf("quantidade idades: %d", quantidadeIdades);
+            System.out.printf("MEDIA = %.2f" , media);
+        }
+        
         sc.close();
     }
 }

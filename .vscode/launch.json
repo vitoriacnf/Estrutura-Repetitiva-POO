@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Teste",
+            "request": "launch",
+            "mainClass": "EstruturaRepetitiva.Teste",
+            "projectName": "Estrutura-Repetitiva-POO_cd2c0e6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercicio2",
+            "request": "launch",
+            "mainClass": "EstruturaRepetitiva.Exercicio2",
+            "projectName": "Estrutura-Repetitiva-POO_cd2c0e6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercicio3",
+            "request": "launch",
+            "mainClass": "EstruturaRepetitiva.Exercicio3",
+            "projectName": "Estrutura-Repetitiva-POO_cd2c0e6"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
