@@ -13,7 +13,7 @@ public class Exercicio3 {
 
         while (senha != 2002) {
             System.out.println("Senha Inválida! Tente Novamente:");
-            
+
             System.out.print("Digite a senha: ");
             senha = sc.nextInt();
         }

@@ -20,14 +20,12 @@ public class Exercicio2 {
 
             idade = sc.nextInt();
         }
-
         if (quantidadeIdades == 0) {
             System.out.println("IMPOSSÍVEL CALCULAR");
         } else {
             Double media = (somaIdades.doubleValue() / quantidadeIdades.doubleValue());
             System.out.printf("MEDIA = %.2f", media);
         }
-
         sc.close();
     }
 }

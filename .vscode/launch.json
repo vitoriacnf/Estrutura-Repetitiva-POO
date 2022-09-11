@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Exercicio15",
+            "request": "launch",
+            "mainClass": "EstruturaRepetitiva.Exercicio15",
+            "projectName": "Estrutura-Repetitiva-POO_cd2c0e6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercicio8",
+            "request": "launch",
+            "mainClass": "EstruturaRepetitiva.Exercicio8",
+            "projectName": "Estrutura-Repetitiva-POO_cd2c0e6"
+        },
+        {
+            "type": "java",
             "name": "Launch Teste",
             "request": "launch",
             "mainClass": "EstruturaRepetitiva.Teste",
